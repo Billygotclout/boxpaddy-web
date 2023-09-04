@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-24">
+    <div class="mt-24 ">
         <section class=" flex items-start justify-around ">
             <img src="../assets/boxpaddy2.png" alt="">
             <section class="flex  space-x-24">

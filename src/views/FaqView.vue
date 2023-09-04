@@ -12,19 +12,19 @@
   </section>
   <section class=" px-52 mt-64 ">
     <section class="space-y-5">
-      <section class="flex items-center justify-between bg-blue-100 p-6">
+      <section class="flex items-center justify-between bg-blue-100 p-6 rounded-md" @click="ppp">
         <p>What is BoxPaddy?</p>
         <img src="../assets/arrow-back.png" alt="" class="w-[2%]">
       </section>
-      <section class="flex items-center justify-between bg-blue-100 p-6">
+      <section class="flex items-center justify-between bg-blue-100 p-6 rounded-md">
         <p>What is BoxPaddy?</p>
         <img src="../assets/arrow-back.png" alt="" class="w-[2%]">
       </section>
-      <section class="flex items-center justify-between bg-blue-100 p-6">
+      <section class="flex items-center justify-between bg-blue-100 p-6 rounded-md">
         <p>What is BoxPaddy?</p>
         <img src="../assets/arrow-back.png" alt="" class="w-[2%]">
       </section>
-      <section class="flex items-center justify-between bg-blue-100 p-6">
+      <section class="flex items-center justify-between bg-blue-100 p-6 rounded-md">
         <p>What is BoxPaddy?</p>
         <img src="../assets/arrow-back.png" alt="" class="w-[2%]">
       </section>
@@ -52,6 +52,9 @@
 </template>
 
 <script setup>
+const ppp = () => {
+  console.log("hello")
+}
 </script>
 
 <style  scoped>
@@ -64,5 +67,9 @@
   width: 100%;
   height: 50vh;
   /* height: 100vh; */
+}
+
+.p-6 {
+  cursor: pointer;
 }
 </style>

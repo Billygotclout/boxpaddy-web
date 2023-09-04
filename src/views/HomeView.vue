@@ -21,7 +21,7 @@
       </section>
     </section>
 
-    <img src="../assets/phone.png" alt="" class="drop-shadow-md w-1/4" />
+    <img src="../assets/phone.png" alt="" class="drop-shadow-md w-1/5 mr-52" />
   </section>
   <driver-earn />
   <expect />
